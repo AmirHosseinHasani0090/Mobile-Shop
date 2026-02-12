@@ -1,0 +1,99 @@
+#header {
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+     border-bottom: 1px solid #ccc;
+}
+
+#header > div {
+    padding: 0 15px;
+    flex-shrink: 0;
+}
+#logo {
+    height: 100px;
+    width: auto;
+    margin-left: -200px;
+    padding-top: 23px;
+}
+#shopping-cart {
+    height: 40px;
+    width: auto;
+    padding-left: 40px;
+    padding-top: 23px;
+}
+#bell {
+    height: 40px;
+    width: auto;
+    margin-left: -800px;
+    padding-top: 23px;
+}
+#icon-login {
+     height: 40px;
+     width: auto;
+}
+#button-login {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding-right: 800px;
+    padding-top: 23px;
+}
+
+#search {
+    margin-left: -380px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    height: 100%;
+    flex-grow: 1;
+    font-size: 15px;
+    padding-top: 30px;
+    /* راستچین */
+    direction: rtl;
+    text-align: right;
+
+    flex-grow: 1;
+    z-index: 2;
+}
+#head-button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 35px;
+    margin-top: 100px;
+
+}
+
+#icon-search {
+    padding: 0 15px;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    transition: 0.2s;
+}
+#icon-search:hover {
+    color: #333;
+}
+
+#icon-search img {
+    width: 20px;
+    height: 20px;
+    stroke: currentColor;
+    margin-left: -300px;
+    margin-top: -75px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
